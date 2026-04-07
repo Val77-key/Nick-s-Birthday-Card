@@ -3,6 +3,9 @@
 }
 
 body {
+    min-height: 100dvh;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
     margin: 0;
     background-image: linear-gradient(to left, rgb(61, 128, 80), rgb(149, 138, 138));
 }
@@ -48,7 +51,7 @@ img {
 
 .button {
     position: fixed;
-    top: 0;
+    top: env(safe-area-inset-top);
     right: 0;
     text-decoration: none;
     color: black;
