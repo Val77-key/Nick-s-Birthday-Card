@@ -24,10 +24,12 @@
 
 }
 
+html {
+    background: linear-gradient(to right, green,yellow, red, rgb(99, 5, 99));
+}
 
 body {
     margin: 0;
-    padding-top: env(safe-area-inset-top);
     min-height: 100dvh;
     background-image: linear-gradient(to right, green,yellow, red, rgb(99, 5, 99));
     color: var(--White);
@@ -39,7 +41,8 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding-top: calc(3rem + env(safe-area-inset-top));
+    padding-bottom: calc(3rem + env(safe-area-inset-bottom));
 }
 
 
