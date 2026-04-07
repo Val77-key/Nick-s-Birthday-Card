@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to left, rgb(61, 128, 80), rgb(149, 138, 138));
+}
+
+.text {
+    margin-top:1rem;
+    color:wheat;
+    padding:1rem;
+    text-align: center;
+    text-shadow:  2px 2px 3px rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    padding:  0.3rem;
+}
+
+.column {
+    flex:25%;
+    max-width:25%;
+    padding: 0.3rem;
+}
+
+
+img {
+    margin-top: 0.5rem;
+    display: block;
+    max-inline-size: 100%;
+    border: 5px solid rgb(203, 176, 125);
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px rgb(134, 156, 122);
+
+    
+
+
+}
+
+
+.button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1rem;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 0 0 0 1rem  ;
+
+
+
+}
+
+
+@media screen and (max-width:64rem) {
+    .column {
+        flex:50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width:30rem) {
+    .column {
+        flex: 100%;
+        max-width: 100%;  
+    }
+}

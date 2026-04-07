@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to left bottom , blue, green,indigo,violet);
+}
+
+
+.text {
+    margin-top:1rem;
+    color:white;
+    padding:1rem;
+    text-align: center;
+    text-shadow:  5px 5px 3px rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  0.3rem;
+}
+
+.column {
+    flex:25%;
+    max-width: 25%;
+    padding: 0.3rem;
+}
+
+
+ img {
+    margin-top: 0.5rem;
+    max-inline-size:100%;
+    display: block;
+    border: 5px solid white;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+
+
+}
+
+.button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1rem;
+    background-image: linear-gradient(to top, red,blue);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0 0 0 1rem  ;
+
+
+
+}
+
+@media screen and (max-width:64rem) {
+    .column {
+        flex:50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width:30rem) {
+    .column {
+        flex: 100%;
+        max-width: 100%;  
+    }
+}
