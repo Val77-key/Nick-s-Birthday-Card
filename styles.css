@@ -27,6 +27,7 @@
 
 body {
     margin: 0;
+    padding-top: env(safe-area-inset-top);
     min-height: 100dvh;
     background-image: linear-gradient(to right, green,yellow, red, rgb(99, 5, 99));
     color: var(--White);
