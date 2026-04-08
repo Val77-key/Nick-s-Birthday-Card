@@ -154,7 +154,7 @@ img {
         transform: translateY(0);
     }
     to {
-        color:blue;
+        color:green;
         transform: translate(-15px);
     }
 }
