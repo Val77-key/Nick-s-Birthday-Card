@@ -62,7 +62,7 @@ body {
     width: 100px;
     height: 100px;    
     margin-bottom: var(--spacing_300);
-    animation: bounce 1s infinite alternate;
+    animation: bounce 2s infinite alternate;
 }
 
 img {
@@ -93,7 +93,7 @@ img {
 .shadow {
     text-shadow:  3px 3px 3px rgb(0, 0, 0);
      text-align: center;
-    animation: bounce 1s infinite alternate;
+    animation: bounce 2s infinite alternate;
 }
 
 .bio {
