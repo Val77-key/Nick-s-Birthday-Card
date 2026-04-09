@@ -8,6 +8,7 @@
 
 :root {
     --Grey-900:rgb(34, 99, 34);
+    --Grey-1000:#141414;
     --Dark_Green-800:rgb(0, 129, 0, 0.7);
     --Grey-700:#C4F82A;
     --Green:#C4F82A;
@@ -28,7 +29,8 @@ html, body {
     padding: 0;
     margin: 0;
     min-height: 100dvh;
-    background-image: linear-gradient(to right, green,yellow, red, rgb(99, 5, 99));
+    background-color: var(--Grey-1000);
+    /*background-image: linear-gradient(to right, green,yellow, red, rgb(99, 5, 99));*/
     color: var(--White);
     font-family: "Inter", sans-serif;
 }
