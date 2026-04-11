@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-image: linear-gradient(to left bottom , blue, green,indigo,violet);
+    background: rgb(0, 0, 71) linear-gradient(to left bottom , blue, green,indigo,violet);
 }
 
 
