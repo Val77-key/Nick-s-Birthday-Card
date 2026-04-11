@@ -3,11 +3,8 @@
 }
 
 body {
-    min-height: 100dvh;
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
     margin: 0;
-    background-image: linear-gradient(to left, rgb(61, 128, 80), rgb(149, 138, 138));
+    background: rgb(0, 32, 0) linear-gradient(to left, rgb(61, 128, 80), rgb(149, 138, 138));
 }
 
 .text {
